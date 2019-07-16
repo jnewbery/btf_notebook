@@ -26,7 +26,7 @@ $ sudo add-apt-repository ppa:bitcoin/bitcoin && sudo apt-get update
 
 Create and activate your virtual environment (not strictly required):
 ```
-$ python3 -m venv .venv3 && virtualenv .venv3/bin/activate
+$ python3 -m venv .venv3 && source .venv3/bin/activate
 ```
 
 Install dependencies:
